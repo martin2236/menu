@@ -1,0 +1,125 @@
+body{
+    margin-left: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-width: 375px;
+    margin-left: 0;
+    background-image: url(./img-menu/fondo.jpg);
+    background-size: cover;
+}
+.titulo{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+}
+.menu{
+    border: solid;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    background-color: aquamarine;
+    
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+.formulario{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.platos{
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255,255, 0.1);
+    width: 110px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 20px 20px 50px rgba(0,0,0, 0.5);
+    margin: 10px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    border-top: 2px solid rgba(255,255,255,0.5);
+    border-left:2px solid rgba(255,255,255,0.5); 
+    backdrop-filter: blur(10px);
+    }
+
+
+img{
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: #24a0ed;
+    color: #fff;
+    padding-left: 2px;
+    height: 25px;
+    width: 40px;
+    border-radius: 20px;
+}
+.final{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.contenedor-de-total{
+    margin: 5px 10px 0 0;
+    display: flex;
+    width: 90px;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 25px;
+}
+.total{
+    width: 50px;
+    margin-left: 10px;
+}
+.mesero{
+    padding-left: 5px;
+    margin: 5px 0 0 10px;
+    background-color: #24a0ed;
+    color: #fff;
+    border-radius: 20px;
+    width: 60px;
+    height: 30px;
+}
+.pedido{
+    width: 100px !important;
+    background-color: #24a0ed;
+    color: #fff;
+    border-radius: 20px;
+    width: 60px;
+    height: 30px;
+}
+.footer{
+    color: #fff;
+    width: 95%;
+    margin: 10px auto;
+    backdrop-filter: blur(40px);
+    border-top: 2px solid rgba(255,255,255,0.5);
+    border-left:2px solid rgba(255,255,255,0.5); 
+}
+.contacto{
+    font-size: 30px;
+    padding: 0 0;
+    margin: 10px 0;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.redes{
+margin: 5px 0 5px 0;
+}
+.table{
+    width: 100%;
+}
+.h4{
+    display: block;
+    background-color: azure;
+}

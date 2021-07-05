@@ -1,0 +1,73 @@
+[
+    {
+        "id":1,
+        "nombre":"Asado",
+        "precio":550,
+        "imagen":"./img-menu/asado.jpg"
+        
+    },
+    {
+        "id":2,
+        "nombre":"Pollo",
+        "precio":450,
+        "imagen":"./img-menu/pollo.jpg"
+        
+    },
+    {
+        "id":3,
+        "nombre":"Chorizo",
+        "precio":150,
+        "imagen":"./img-menu/choris.jpg"
+        
+    },
+    {
+        "id":4,
+        "nombre":"Entraña",
+        "precio":400,
+        "imagen":"./img-menu/entraña.jpg"
+        
+    },
+    {
+        "id":5,
+        "nombre":"Mollejas",
+        "precio":400,
+        "imagen":"./img-menu/chinchulines.jpg"
+        
+    },
+    {
+        "id":6,
+        "nombre":"Cordero",
+        "precio":600,
+        "imagen":"./img-menu/cordero.jpg"
+        
+    },
+    {
+        "id":7,
+        "nombre":"Lechon",
+        "precio":550,
+        "imagen":"./img-menu/lechon.jpg"
+        
+    },
+    {
+        "id":8,
+        "nombre":"Bondiola",
+        "precio":450,
+        "imagen":"./img-menu/bondiola.jpg"
+        
+    },
+    {
+        "id":9,
+        "nombre":"Costillas",
+        "precio":400,
+        "imagen":"./img-menu/costillas.jpg"
+        
+    },
+    {
+        "id":10,
+        "nombre":"Empanadas",
+        "precio":50,
+        "imagen":"./img-menu/empanada.jpg"
+        
+    }
+
+]
